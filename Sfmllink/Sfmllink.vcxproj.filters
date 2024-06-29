@@ -24,7 +24,19 @@
     <ClCompile Include="Levels.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Team Code.cpp">
+    <ClCompile Include="Controls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="difficulty.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Paused.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Storymode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,5 +47,104 @@
     <ClInclude Include="Levels.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Astronaut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Boxes collision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="credits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="difficulty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Initialization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Movement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Movement_new.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="movement_controls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Paused.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player collision_new.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Reset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scientist new.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Storymode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thief.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scientist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="progress.txt" />
   </ItemGroup>
 </Project>

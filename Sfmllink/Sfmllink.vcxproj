@@ -133,14 +133,53 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Controls.cpp" />
+    <ClCompile Include="difficulty.cpp" />
     <ClCompile Include="Levels.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="My Main.cpp" />
     <ClCompile Include="Menu.cpp" />
-    <ClCompile Include="Team Code.cpp" />
+    <ClCompile Include="Paused.cpp" />
+    <ClCompile Include="Storymode.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Astronaut.h" />
+    <ClInclude Include="Boxes collision.h" />
+    <ClInclude Include="Builder.h" />
+    <ClInclude Include="Controls.h" />
+    <ClInclude Include="credits.h" />
+    <ClInclude Include="difficulty.h" />
+    <ClInclude Include="Initialization.h" />
+    <ClInclude Include="Key.h" />
+    <ClInclude Include="Level1.h" />
+    <ClInclude Include="Level10.h" />
+    <ClInclude Include="Level2.h" />
+    <ClInclude Include="Level3.h" />
+    <ClInclude Include="Level4.h" />
+    <ClInclude Include="Level5.h" />
+    <ClInclude Include="Level6.h" />
+    <ClInclude Include="Level7.h" />
+    <ClInclude Include="Level8.h" />
+    <ClInclude Include="Level9.h" />
+    <ClInclude Include="Levels header.h" />
     <ClInclude Include="Levels.h" />
+    <ClInclude Include="map.h" />
     <ClInclude Include="Menu.h" />
+    <ClInclude Include="Movement.h" />
+    <ClInclude Include="movement_controls.h" />
+    <ClInclude Include="Movement_new.h" />
+    <ClInclude Include="Paused.h" />
+    <ClInclude Include="Player collision_new.h" />
+    <ClInclude Include="player struct.h" />
+    <ClInclude Include="Reset.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="Scientist new.h" />
+    <ClInclude Include="Scientist.h" />
+    <ClInclude Include="Storymode.h" />
+    <ClInclude Include="Thief.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="progress.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

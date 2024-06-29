@@ -7,28 +7,37 @@ using namespace sf;
 
 Menu::Menu(float width, float height)
 {
-	font.loadFromFile("../Assets/fonts/BalonkuRegular-la1w.otf");
+
+
+
+
+
+	font.loadFromFile("../Assets/fonts/joystixMonospace.otf");
+
 
 	mainmenu[0].setFont(font);
 	mainmenu[0].setFillColor(Color::Black);
 	mainmenu[0].setString("Play");
-	mainmenu[0].setCharacterSize(90);
-	mainmenu[0].setPosition(Vector2f((width / (2) - 130), height / 4));
+	mainmenu[0].setCharacterSize(60);
+	mainmenu[0].setPosition(Vector2f((width / (3)), height / 4 + 475));
 
 	mainmenu[1].setFont(font);
 	mainmenu[1].setFillColor(Color::White);
-	mainmenu[1].setString("Levels");
-	mainmenu[1].setCharacterSize(90);
-	mainmenu[1].setPosition(Vector2f((width / (2) - 175), height / (4) + 350));
+	mainmenu[1].setString("Controls");
+	mainmenu[1].setCharacterSize(60);
+	mainmenu[1].setPosition(Vector2f((width / (2) + 30), height / (4) + 475));
 
 	mainmenu[2].setFont(font);
 	mainmenu[2].setFillColor(Color::White);
 	mainmenu[2].setString("Exit");
-	mainmenu[2].setCharacterSize(90);
-	mainmenu[2].setPosition(Vector2f((width / (2) - 130), height / (4) + 550));
+	mainmenu[2].setCharacterSize(60);
+	mainmenu[2].setPosition(Vector2f((width / (2) - 100), height / (4) + 625));
 
 	selected = 0;
+
 }
+
+
 
 Menu::~Menu() {}
 
