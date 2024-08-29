@@ -151,7 +151,7 @@ Project features:
 
 _______________________
 
-Team members:
+Team members signature:
 
 -Yassin Hany Marwan
 -Mostafa Ahmed Eid
